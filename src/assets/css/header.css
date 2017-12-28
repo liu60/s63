@@ -1,0 +1,62 @@
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.s63-head{
+  width: 100%;
+}
+.head-nav-top{
+  width: 100%;
+  background: #000;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.nav-top-bg{
+  width: 1200px;
+  margin: 0 auto;
+}
+.head-login li{
+  float: left;
+  margin-right: 10px;
+}
+.login-input{
+  border: 0 solid blue;
+  border-radius: 5px;
+  width: 80px;
+  height: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.login-input:focus{
+  outline: none;
+}
+.yzm{
+  float: right;
+  width: 60px;
+  height: 20px;
+  background: #fff;
+  line-height: 20px;
+  color: #000;
+  margin-top: 11px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.login-btn{
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  background: linear-gradient(top, #fff, #0000ff);
+  background: -ms-linear-gradient(top, #fff,  #0000ff);
+  background: -moz-linear-gradient(top, #fff, #0000ff);
+  background: -webkit-linear-gradient(top, #fff, #0000ff);
+  background: -o-linear-gradient(top, #fff, #0000ff);
+}
+.login-btn:focus{
+  outline: none;
+}
