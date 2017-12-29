@@ -3,7 +3,7 @@
     <div class="head-nav-top">
       <div class="nav-top-bg">
         <div class="fl">本地时间:  {{dateFilter(time)}}</div>
-        <ul v-if="visibled" class="head-login fr">
+        <ul v-if="visible" class="head-login fr">
           <li>
             用户名:
             <input type="text" class="login-input">
@@ -22,16 +22,48 @@
             <a style="color: #fff" href="#">联系客服</a>
           </li>
         </ul>
-        <ul v-if="visible" class="head-login fr">
-          <li>首页</li>
-          <li>老虎机</li>
-          <li>真人娱乐</li>
-          <li></li>
-          <li></li>
+        <ul v-if="visibled" class="head-login fr">
+          <li>
+            会员:
+            <span>anne</span>
+            <b>|</b>
+          </li>
+          <li>
+            货币:
+            <span>RMB</span>
+            <b>|</b>
+          </li>
+          <li>
+            主账户余额:
+            <span>100.00</span>
+            <b>|</b>
+          </li>
+          <li>
+            积分:
+            <span>3</span>
+            <b>|</b>
+          </li>
+          <li>
+            个人账户
+            <button class="logout-btn">退出</button>
+          </li>
         </ul>
       </div>
     </div>
-    <div class="head-nav-bottom"></div>
+    <div class="head-nav-bottom">
+      <img src="./../assets/images/S63_logo.png" class="s63-logo">
+      <ul class="nav-bottom-right fr">
+        <li><router-link to="index">首页</router-link></li>
+        <li><router-link to="live">真人娱乐</router-link></li>
+        <li><router-link to="elec">老虎机</router-link></li>
+        <li><router-link to="">捕鱼馆</router-link></li>
+        <li><router-link to="">综合游戏</router-link></li>
+        <li><router-link to="">优惠活动</router-link></li>
+        <li><router-link to="">代理加盟</router-link></li>
+        <li><router-link to="">代言动态</router-link></li>
+        <li><router-link to="">SA-API</router-link></li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -57,7 +89,7 @@
         return date.getFullYear() + '-' + ((date.getMonth() + 1) < 10 ? '0' + (date.getMonth() + 1) : (date.getMonth() + 1)) + '-' + (date.getDate() < 10 ? '0' + date.getDate() : date.getDate()) + "   " + (date.getHours()) + ':' + (date.getMinutes())
       },
       createCode(){
-        this.code = ''
+        this.code = '';
         var codeLength = 4;
         var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R','S','T','U','V','W','X','Y','Z');
         for (var i = 0;i < codeLength;i++){
