@@ -15,7 +15,7 @@
           <li>
             验证码:
             <input type="text" class="login-input" maxlength="4">
-            <div :value="code" class="yzm" id="code" @click="createCode()"></div>
+            <div class="yzm" id="code" @click="createCode()">{{code}}</div>
           </li>
           <li>
             <button class="login-btn">登录</button>
@@ -57,16 +57,12 @@
         return date.getFullYear() + '-' + ((date.getMonth() + 1) < 10 ? '0' + (date.getMonth() + 1) : (date.getMonth() + 1)) + '-' + (date.getDate() < 10 ? '0' + date.getDate() : date.getDate()) + "   " + (date.getHours()) + ':' + (date.getMinutes())
       },
       createCode(){
+        this.code = ''
         var codeLength = 4;
-        var checkCode = document.getElementById('code');
         var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R','S','T','U','V','W','X','Y','Z');
         for (var i = 0;i < codeLength;i++){
           var charNum = Math.floor(Math.random()*52);
           this.code += codeChars[charNum];
-        }
-        if(checkCode){
-          checkCode.className = 'yzm';
-          checkCode.innerHTML = code;
         }
       }
     },
