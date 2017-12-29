@@ -1,0 +1,110 @@
+.index-main{
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-money{
+  background: url("./../assets/images/index/money.png") no-repeat center;
+  height: 196px;
+  margin-top: 5px;
+}
+.money{
+  margin-right: 75px;
+}
+.moneys div{
+  display: inline-block;
+  width: 55px;
+  height: 95px;
+  border: 3px solid #978044;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 52px 0 10px 0;
+  text-align: center;
+  padding-top: 16px;
+  color: #f1cb3e;
+  font-size: 45px;
+  box-shadow: 0 0 1px #f1cb3e;
+}
+.money-1,.money-2,.money-3,.money-4{
+  display: inline-block;
+}
+.symbol{
+  width: 10px;
+  height: 20px;
+  display: inline-block;
+  background: url("./../assets/images/fairy.png") -20px -174px;
+}
+.main-banner{
+  margin-top: 10px;
+}
+.main-banner div{
+  display: inline-block;
+  width: 380px;
+  height: 441px;
+  box-sizing: border-box;
+}
+.main-elec{
+  background: url("./../assets/images/index/index-elec.jpg");
+  overflow: hidden;
+}
+.main-live{
+  background: url("./../assets/images/index/index-live.jpg");
+  overflow: hidden;
+}
+.main-sport{
+  background: url("./../assets/images/index/index-sport.jpg");
+  overflow: hidden;
+}
+.shade{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,.5);
+  position: absolute;
+  top:333px;
+  text-align: center;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  padding-top: 2px;
+}
+.main-elec:hover .shade{
+  padding-top: 200px;
+  top: 0;
+}
+.main-live:hover .shade{
+  padding-top: 200px;
+  top: 0;
+}
+.main-sport:hover .shade{
+  padding-top: 200px;
+  top: 0;
+}
+.shade .tiger{
+  display: inline-block;
+  margin-bottom: -8px;
+  width: 39px;
+  height: 39px;
+  background: url("./../assets/images/fairy.png") -10px -116px;
+}
+.shade .poker{
+  display: inline-block;
+  margin-bottom: -8px;
+  width: 39px;
+  height: 39px;
+  background: url("./../assets/images/fairy.png") -10px -63px;
+}
+.shade .general{
+  display: inline-block;
+  margin-bottom: -8px;
+  width: 39px;
+  height: 39px;
+  background: url("./../assets/images/fairy.png") -10px -9px;
+}
+.TS{
+  width: 999px;
+  height: 35px;
+  margin: 20px auto;
+  background: url("./../assets/images/index/TS.png");
+}
+
