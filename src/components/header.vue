@@ -44,7 +44,7 @@
             <b>|</b>
           </li>
           <li>
-            <router-link to="personal-center">个人账户</router-link>
+            <router-link to="/personal-center/save-money">个人账户</router-link>
             <button class="logout-btn">退出</button>
           </li>
         </ul>
@@ -53,10 +53,10 @@
     <div class="head-nav-bottom">
       <img src="./../assets/images/S63_logo.png" class="s63-logo">
       <ul class="nav-bottom-right fr">
-        <li><router-link to="index">首页</router-link></li>
-        <li><router-link to="live">真人娱乐</router-link></li>
-        <li><router-link to="elec">老虎机</router-link></li>
-        <li><router-link to="byg">捕鱼馆</router-link></li>
+        <li><router-link to="/index">首页</router-link></li>
+        <li><router-link to="/live">真人娱乐</router-link></li>
+        <li><router-link to="/elec">老虎机</router-link></li>
+        <li><router-link to="/byg">捕鱼馆</router-link></li>
         <li><router-link to="">综合游戏</router-link></li>
         <li><router-link to="">优惠活动</router-link></li>
         <li><router-link to="">代理加盟</router-link></li>
