@@ -8,6 +8,10 @@ import saveMoney from './../components/personal/save-money'
 import loadMoney from './../components/personal/load-money'
 import transfer from './../components/personal/transfer'
 
+
+
+import dlzx from './../components/dlzx'
+
 Vue.use(Router);
 
 export default new Router({
@@ -31,6 +35,11 @@ export default new Router({
       path: '/byg',
       name: 'byg',
       component: byg
+    },
+    {
+      path: '/dlzx',
+      name: 'dlzx',
+      component: dlzx
     },
     {
       path: '/personal-center',
