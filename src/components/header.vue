@@ -56,7 +56,7 @@
         <li><router-link to="index">首页</router-link></li>
         <li><router-link to="live">真人娱乐</router-link></li>
         <li><router-link to="elec">老虎机</router-link></li>
-        <li><router-link to="">捕鱼馆</router-link></li>
+        <li><router-link to="byg">捕鱼馆</router-link></li>
         <li><router-link to="">综合游戏</router-link></li>
         <li><router-link to="">优惠活动</router-link></li>
         <li><router-link to="">代理加盟</router-link></li>

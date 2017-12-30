@@ -66,7 +66,7 @@
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   -o-transition: all .5s;
-  padding-top: 2px;
+  padding-top: 20px;
 }
 .main-elec:hover .shade{
   padding-top: 200px;
