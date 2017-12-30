@@ -1,0 +1,41 @@
+.platform {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #bebebe
+}
+
+.platform .title {
+  background-color: #e8ecef;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 20px;
+  font-size: 20px;
+  color: #707070;
+}
+
+.platform .list {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.platform .list li {
+  width: 20%;
+  display: inline-block;
+  margin: 7px 0;
+}
+
+.platform .list .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #d5dce2;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  float: left;
+  font-size: 20px;
+}
