@@ -44,7 +44,7 @@
             <b>|</b>
           </li>
           <li>
-            个人账户
+            <router-link to="personal-center">个人账户</router-link>
             <button class="logout-btn">退出</button>
           </li>
         </ul>
@@ -86,7 +86,11 @@
     methods:{
       dateFilter(time){
         var date = new Date(time);
-        return date.getFullYear() + '-' + ((date.getMonth() + 1) < 10 ? '0' + (date.getMonth() + 1) : (date.getMonth() + 1)) + '-' + (date.getDate() < 10 ? '0' + date.getDate() : date.getDate()) + "   " + (date.getHours()) + ':' + (date.getMinutes())
+        function template(time) {
+            return time < 10 ? '0' + time : time
+        }
+        return date.getFullYear() + '-' + template(date.getMonth() + 1) + '-' + template(date.getDate())
+          + "   " + template(date.getHours()) + ':' + template(date.getMinutes()) + ':' + template(date.getSeconds())
       },
       createCode(){
         this.code = '';
