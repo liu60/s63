@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 1px">
+  <div>
     <el-carousel :interval="5000" arrow="always">
       <el-carousel-item v-for="item in imgUrl" :key="item">
         <img style="width: 100%;height: 500px" :src="item">
