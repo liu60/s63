@@ -102,17 +102,17 @@
         线上支付(自动秒冲)
         <img src="" alt="">
         <img src="" alt="">
-        <div class="submit">立即支付</div>
+        <div class="submit" @click="$router.push('online')">立即支付</div>
       </div><div class="type">
         银行转账(无需网银)
         <img src="" alt="">
         <img src="" alt="">
-        <div class="submit">立即支付</div>
+      <div class="submit" @click="$router.push('bank')">立即支付</div>
       </div><div class="type">
         第三方支付
         <img src="" alt="">
         <img src="" alt="">
-        <div class="submit">立即支付</div>
+      <div class="submit" @click="$router.push('third')">立即支付</div>
       </div>
     </div>
   </div>
@@ -124,6 +124,6 @@
     }
   }
 </script>
-<style>
+<style scoped>
   @import "../../assets/css/save-money.css";
 </style>

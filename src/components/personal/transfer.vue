@@ -112,16 +112,40 @@
     </div>
     <div class="transfer">
       <div class="title">户内转账</div>
+      <img src="" alt="">
+      <el-form ref="form" :model="form" label-width="30%">
+        <el-form-item label="转出">
+          <el-select v-model="form.a">
+            <el-option>请选择</el-option>
+          </el-select>
+        </el-form-item>
+        <el-form-item label="转入">
+          <el-select v-model="form.a">
+            <el-option>请选择</el-option>
+          </el-select>
+        </el-form-item>
+        <el-form-item label="转账金额">
+          <el-input v-model="form.a"></el-input>
+        </el-form-item>
+        <el-form-item label="验证码">
+          <el-input v-model="form.a"></el-input>
+        </el-form-item>
+        <el-button type="primary" @click="onSubmit">提交</el-button>
+      </el-form>
     </div>
   </div>
 </template>
 <script>
   export default{
     data(){
-      return {}
+      return {
+        form: {
+          a: ''
+        }
+      }
     }
   }
 </script>
-<style>
+<style scoped>
   @import "../../assets/css/transfer.css";
 </style>

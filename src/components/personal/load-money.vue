@@ -82,6 +82,6 @@
     }
   }
 </script>
-<style>
+<style scoped>
   @import "../../assets/css/load-money.css";
 </style>

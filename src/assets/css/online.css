@@ -1,0 +1,39 @@
+.title {
+  color: #0088ff;
+}
+.content,
+.money{
+  overflow: hidden;
+}
+.content::before,
+.content::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.icon {
+  width: 20%;
+  height: 40px;
+  margin: 10px 0;
+  float: left;
+}
+
+.el-col{
+  line-height: 40px;
+}
+
+.left{
+  text-align: right;
+  color: #08f;
+  line-height: 40px;
+}
+
+.el-button{
+  margin: 23px 0;
+}
+
+.tips{
+  color: #f00;
+  padding-bottom: 40px;
+}

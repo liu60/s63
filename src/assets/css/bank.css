@@ -1,0 +1,12 @@
+.title{
+  color: #08f;
+  font-weight: bold;
+}
+.el-form{
+  margin-top: 20px;
+  overflow: hidden;
+}
+.tips{
+  color: #f00;
+  padding-bottom: 40px;
+}

@@ -39,3 +39,12 @@
   float: left;
   font-size: 20px;
 }
+
+.platform .list .up {
+  text-align: left;
+  margin-top: 8px;
+}
+.platform .list .down {
+  text-align: left;
+  color: #0088ff;
+}

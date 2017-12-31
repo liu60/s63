@@ -7,8 +7,11 @@ import personalCenter from './../components/personal-center'
 import saveMoney from './../components/personal/save-money'
 import loadMoney from './../components/personal/load-money'
 import transfer from './../components/personal/transfer'
-
-
+import record from './../components/personal/record'
+import setting from './../components/personal/setting'
+import online from './../components/personal/online'
+import bank from './../components/personal/bank'
+import third from './../components/personal/third'
 
 import dlzx from './../components/dlzx'
 
@@ -60,6 +63,31 @@ export default new Router({
           path: 'transfer',
           name: 'transfer',
           component: transfer
+        },
+        {
+          path: 'record',
+          name: 'record',
+          component: record
+        },
+        {
+          path: 'setting',
+          name: 'setting',
+          component: setting
+        },
+        {
+          path: 'online',
+          name: 'online',
+          component: online
+        },
+        {
+          path: 'bank',
+          name: 'bank',
+          component: bank
+        },
+        {
+          path: 'third',
+          name: 'third',
+          component: third
         },
       ]
     },

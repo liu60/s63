@@ -1,0 +1,52 @@
+.title {
+  color: #0088ff;
+}
+
+.content,
+.money {
+  width: 100%;
+  overflow: hidden;
+}
+
+.content::before,
+.content::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.el-radio {
+  width: 33%;
+  height: 40px;
+  margin: 10px 0;
+  float: left;
+}
+
+.money {
+  color: #a0a0a0;
+}
+
+.money p {
+  font-size: 14px;
+}
+
+.el-row {
+  margin: 10px 0;
+}
+
+.el-col {
+  line-height: 40px;
+}
+
+.left {
+  text-align: right;
+  line-height: 40px;
+}
+
+.el-button {
+  margin: 23px 0;
+}
+
+.tips {
+  color: #f00;
+}
