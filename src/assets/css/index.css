@@ -142,39 +142,47 @@
   margin: 0 auto;
 }
 .circle1{
+  position: absolute;
+  top: 0;
+  right: -2px;
   width: 72px;
   height: 72px;
   /*border: 1px solid red;*/
   border-radius: 50%;
   box-sizing: border-box;
-  float: right;
   background: url("./../assets/images/fairy.png") -436px -8px;
 }
 .circle2{
+  position: absolute;
+  top: 0;
+  right: -2px;
   width: 72px;
   height: 72px;
   /*border: 1px solid red;*/
   border-radius: 50%;
   box-sizing: border-box;
-  float: right;
   background: url("./../assets/images/fairy.png") -520px -8px;
 }
 .circle3{
+  position: absolute;
+  top: 0;
+  right: -2px;
   width: 72px;
   height: 72px;
   /*border: 1px solid red;*/
   border-radius: 50%;
   box-sizing: border-box;
-  float: right;
   background: url("./../assets/images/fairy.png") -349px -12px;
 }
 .circle4{
+  position: absolute;
+  top: 0;
+  right: -2px;
   width: 72px;
   height: 72px;
   /*border: 1px solid red;*/
   border-radius: 50%;
   box-sizing: border-box;
-  float: right;
   background: url("./../assets/images/fairy.png") -265px -12px;
 }
 .text-sa{
@@ -223,8 +231,7 @@
   border-top-right-radius: 50px;
 }
 .text1{
-  position: absolute;
-  left: 195px;
+  margin-left: 195px;
   width: 140px;
   height: 70px;
   font-size: 35px;
@@ -233,8 +240,7 @@
   transition: all 0.3s linear;
 }
 .text2{
-  position: absolute;
-  left: 195px;
+  margin-left: 195px;
   width: 165px;
   height: 70px;
   font-size: 35px;
@@ -243,8 +249,7 @@
   transition: all 0.3s linear;
 }
 .text3{
-  position: absolute;
-  left: 195px;
+  margin-left: 195px;
   width: 165px;
   height: 70px;
   font-size: 35px;
@@ -253,8 +258,7 @@
   transition: all 0.3s linear;
 }
 .text4{
-  position: absolute;
-  left: 195px;
+  margin-left: 195px;
   width: 165px;
   height: 70px;
   font-size: 35px;
@@ -262,41 +266,52 @@
   box-sizing: border-box;
   transition: all 0.3s linear;
 }
-.text-sa:hover{
+.text-sa .mask,
+.text-pt .mask,
+.text-mg .mask,
+.text-ag .mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 36px);
+  height: 100%;
+}
+
+.text-sa:hover .mask{
    background: -webkit-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
    background: linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
    background: -moz-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
    background: -o-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
  }
-.text-pt:hover{
+.text-pt:hover .mask{
   background: -webkit-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: -moz-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: -o-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
 }
-.text-mg:hover{
+.text-mg:hover .mask{
   background: -webkit-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: -moz-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: -o-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
 }
-.text-ag:hover{
+.text-ag:hover .mask{
   background: -webkit-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: -moz-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
   background: -o-linear-gradient(left,rgba(255,255,255,0.3),#248ac8);
 }
 .text-sa:hover .text1{
-  left:4px;
+  margin-left:4px;
 }
 .text-pt:hover .text2{
-  left:4px;
+  margin-left:4px;
 }
 .text-mg:hover .text3{
-  left:4px;
+  margin-left:4px;
 }
 .text-ag:hover .text4{
-  left:4px;
+  margin-left:4px;
 }
 .ple{
   width: 487px;
@@ -341,4 +356,21 @@
   cursor: pointer;
 }
 
+.hide{
+  display: none;
+}
 
+.show{
+  display: block;
+  animation: show 1s;
+}
+
+@keyframes show {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    display: block;
+  }
+}
