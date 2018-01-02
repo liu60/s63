@@ -44,7 +44,7 @@
             <b>|</b>
           </li>
           <li>
-            <router-link to="/personal-center/save-money">个人账户</router-link>
+            <router-link style="color: #fff" to="/personal-center/save-money">个人账户</router-link>
             <button class="logout-btn">退出</button>
           </li>
         </ul>

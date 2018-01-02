@@ -113,13 +113,13 @@
         </el-date-picker>
         交易种类:
         <el-select v-model="type">
-          <el-option>取款</el-option>
+          <el-option value="">取款</el-option>
         </el-select>
       </div>
       <div>
         交易种类:
         <el-select v-model="type">
-          <el-option>取款</el-option>
+          <el-option value="">取款</el-option>
         </el-select>
       </div>
       <el-table
@@ -192,6 +192,10 @@
           status:'成功',
           other: '成功'
         }]
+      }
+    },
+    methods: {
+      onSubmit(){
       }
     }
   }

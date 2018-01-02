@@ -116,12 +116,12 @@
       <el-form ref="form" :model="form" label-width="30%">
         <el-form-item label="转出">
           <el-select v-model="form.a">
-            <el-option>请选择</el-option>
+            <el-option value="">请选择</el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="转入">
           <el-select v-model="form.a">
-            <el-option>请选择</el-option>
+            <el-option value="">请选择</el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="转账金额">
@@ -142,6 +142,10 @@
         form: {
           a: ''
         }
+      }
+    },
+    methods: {
+      onSubmit(){
       }
     }
   }

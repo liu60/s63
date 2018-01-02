@@ -38,7 +38,7 @@
       </el-form-item>
       <el-form-item label="银行名称">
         <el-select v-model="form.a">
-          <el-option>工商银行</el-option>
+          <el-option value="">工商银行</el-option>
         </el-select>
       </el-form-item>
       <el-form-item label="省份">

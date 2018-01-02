@@ -103,6 +103,9 @@
   color: #018cff;
   border-bottom: 1px solid #018cff;
 }
+.nav-bottom-right a{
+  color: #000;
+}
 .nav-bottom-right a:hover{
   color: #018cff;
 }

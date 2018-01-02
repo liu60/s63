@@ -5,6 +5,12 @@
         <img style="width: 100%;height: 500px" :src="item">
       </el-carousel-item>
     </el-carousel>
+    <div class="gonggao">
+      <div class="gonggao-main">
+        <i class="gonggao-img"></i>
+        <p class="fl">平台公告：请各会员留意：防止被骗，本公司官方网址只有 www.s63.com。</p>
+      </div>
+    </div>
     <div class="index-main">
       <div class="main-money">
         <div class="fr money">
@@ -70,7 +76,48 @@
         </el-carousel>
       </div>
     </div>
-    <div></div>
+    <div class="bottom-game">
+      <div class="bottom-game-main">
+        <div class="bottom-game-main-left pr">
+          <div class="text-sa">
+            <div class="circle1"></div>
+            <p class="text1">SA电子</p>
+          </div>
+          <div class="text-pt">
+            <div class="circle2"></div>
+            <p class="text2">PT电子</p>
+          </div>
+          <div class="text-mg">
+            <div class="circle3"></div>
+            <p class="text3">MG电子</p>
+          </div>
+          <div class="text-ag">
+            <div class="circle4"></div>
+            <p class="text4">AG电子</p>
+          </div>
+        </div>
+        <div class="bottom-game-main-right pr">
+          <div class="ple"></div>
+          <div class="fr fr-main">
+            <div class="fr-main-top">
+              <h1 class="fl">阿里纳斯推荐平台</h1>
+              <p style="margin: 10px 0 0 20px" class="fl">SA  GAME CASINO</p>
+            </div>
+            <div class="fr-main-bottom">
+              <p class="">SA平台是欧美最流行的电子游艺平台之一，提供超过百款游戏，</p>
+              <p> 以丰富玩法、视觉及声光效果提供顶级娱乐享受, </p>
+              <p>只为你提供极致的游戏体验...</p>
+              <div class="fr-main-bottom-img">
+                <img src="./../assets/images/index/bottom-game-banner1.jpg">
+                <img src="./../assets/images/index/bottom-game-banner2.jpg">
+                <img src="./../assets/images/index/bottom-game-banner3.jpg">
+              </div>
+              <div class="more-game">更多游戏</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
