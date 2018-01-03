@@ -1,0 +1,94 @@
+.elec-banner{
+  width: 100%;
+  height: 354px;
+  background: url("./../assets/images/elec/elec-banner.jpg") no-repeat center;
+}
+.elec-main{
+  width: 100%;
+  height: 1880px;
+  background: url("./../assets/images/elec/elec-bg.jpg") no-repeat;
+  padding-top: 20px;
+}
+.elec-main-mid{
+  width: 1200px;
+  margin:0 auto;
+  overflow: auto;
+  padding: 10px 10px 10px 17px;
+  background: #b2b2b2;
+  box-sizing: border-box;
+}
+.elec-game{
+  display: inline-block;
+  width: 384px;
+  height: 451px;
+  border: 1px solid #ffc872;
+}
+.elec-1{
+  background: url("./../assets/images/elec/elec-1.jpg") no-repeat center;
+}
+.elec-2{
+  background: url("./../assets/images/elec/elec-2.jpg") no-repeat center;
+}
+.elec-3{
+  background: url("./../assets/images/elec/elec-3.jpg") no-repeat center;
+}
+.elec-4{
+  background: url("./../assets/images/elec/elec-4.jpg") no-repeat center;
+}
+.elec-5{
+  background: url("./../assets/images/elec/elec-5.jpg") no-repeat center
+}
+.elec-6{
+  background: url("./../assets/images/elec/elec-6.jpg") no-repeat center;
+}
+.elec-7{
+  background: url("./../assets/images/elec/elec-7.jpg") no-repeat center;
+}
+.elec-8{
+  background: url("./../assets/images/elec/elec-8.jpg") no-repeat center;
+}
+.elec-9{
+  background: url("./../assets/images/elec/elec-9.jpg") no-repeat center
+}
+.elec-10{
+  background: url("./../assets/images/elec/elec-10.jpg") no-repeat center;
+}
+.elec-11{
+  background: url("./../assets/images/elec/elec-11.jpg") no-repeat center;
+}
+.elec-12{
+  background: url("./../assets/images/elec/elec-12.jpg") no-repeat center;
+}
+.elec-game a{
+  position: absolute;
+  bottom: 27px;
+  left: 287px;
+  width: 43px;
+  height: 43px;
+  background: url("./../assets/images/fairy.png") -11px -243px;
+  cursor: pointer;
+}
+.gonggao{
+  width: 100%;
+  height: 35px;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  top: 419px;
+  z-index: 2;
+}
+.gonggao-main{
+  width: 1200px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 auto;
+  color: #fff;
+}
+.gonggao-img{
+  float: left;
+  width: 31px;
+  height: 32px;
+  background: url("./../assets/images/fairy.png") -13px -199px;
+}
+.gonggao p{
+  margin-left: 10px;
+}

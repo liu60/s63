@@ -3,6 +3,13 @@ import Router from 'vue-router'
 import index from './../components/index'
 import live from './../components/live'
 import byg from './../components/byg'
+import elec from './../components/elec'
+import elecMore from './../components/elecMore'
+import general from './../components/general'
+import dlzx from './../components/dlzx'
+
+
+//个人中心
 import personalCenter from './../components/personal-center'
 import saveMoney from './../components/personal/save-money'
 import loadMoney from './../components/personal/load-money'
@@ -13,7 +20,6 @@ import online from './../components/personal/online'
 import bank from './../components/personal/bank'
 import third from './../components/personal/third'
 
-import dlzx from './../components/dlzx'
 
 Vue.use(Router);
 
@@ -43,6 +49,21 @@ export default new Router({
       path: '/dlzx',
       name: 'dlzx',
       component: dlzx
+    },
+    {
+      path: '/elec',
+      name: 'elec',
+      component: elec,
+    },
+    {
+      path:'/elecMore',
+      name:'elecMore',
+      component:elecMore
+    },
+    {
+      path:'/general',
+      name:'general',
+      component:general
     },
     {
       path: '/personal-center',

@@ -321,6 +321,30 @@
   left: 155px;
   background: url("./../assets/images/people.png") -1478px -10px;
 }
+.ple1{
+  width: 487px;
+  height: 475px;
+  position: absolute;
+  top: 4px;
+  left: 155px;
+  background: url("./../assets/images/people.png") -992px -10px;
+}
+.ple2{
+  width: 487px;
+  height: 475px;
+  position: absolute;
+  top: 4px;
+  left: 155px;
+  background: url("./../assets/images/people.png") -533px -10px;
+}
+.ple3{
+  width: 487px;
+  height: 475px;
+  position: absolute;
+  top: 4px;
+  left: 155px;
+  background: url("./../assets/images/people.png") -102px -10px;
+}
 .fr-main{
   height: 479px;
   width: 585px;

@@ -117,19 +117,19 @@
                   <img src="./../assets/images/index/bottom-game-banner2.jpg">
                   <img src="./../assets/images/index/bottom-game-banner3.jpg">
                 </div>
-                <div class="more-game">更多游戏</div>
+                <div class="more-game"><router-link to="elecMore">更多游戏</router-link></div>
               </div>
             </div>
           </div>
           <div :class="{show: showIndex === 1, hide: showIndex !== 1}">
-            <div class="ple"></div>
+            <div class="ple1"></div>
             <div class="fr fr-main">
               <div class="fr-main-top">
-                <h1 class="fl">阿里纳斯推荐平台11111</h1>
-                <p style="margin: 10px 0 0 20px" class="fl">SA  GAME CASINO</p>
+                <h1 class="fl">阿里纳斯推荐平台</h1>
+                <p style="margin: 10px 0 0 20px" class="fl">PT  GAME CASINO</p>
               </div>
               <div class="fr-main-bottom">
-                <p class="">SA平台是欧美最流行的电子游艺平台之一，提供超过百款游戏，</p>
+                <p class="">PT平台是欧美最流行的电子游艺平台之一，提供超过百款游戏，</p>
                 <p> 以丰富玩法、视觉及声光效果提供顶级娱乐享受, </p>
                 <p>只为你提供极致的游戏体验...</p>
                 <div class="fr-main-bottom-img">
@@ -142,14 +142,14 @@
             </div>
           </div>
           <div :class="{show: showIndex === 2, hide: showIndex !== 2}">
-            <div class="ple"></div>
+            <div class="ple2"></div>
             <div class="fr fr-main">
               <div class="fr-main-top">
-                <h1 class="fl">阿里纳斯推荐平台22222</h1>
-                <p style="margin: 10px 0 0 20px" class="fl">SA  GAME CASINO</p>
+                <h1 class="fl">阿里纳斯推荐平台</h1>
+                <p style="margin: 10px 0 0 20px" class="fl">MG  GAME CASINO</p>
               </div>
               <div class="fr-main-bottom">
-                <p class="">SA平台是欧美最流行的电子游艺平台之一，提供超过百款游戏，</p>
+                <p class="">MG平台是欧美最流行的电子游艺平台之一，提供超过百款游戏，</p>
                 <p> 以丰富玩法、视觉及声光效果提供顶级娱乐享受, </p>
                 <p>只为你提供极致的游戏体验...</p>
                 <div class="fr-main-bottom-img">
@@ -162,14 +162,14 @@
             </div>
           </div>
           <div :class="{show: showIndex === 3, hide: showIndex !== 3}">
-            <div class="ple"></div>
+            <div class="ple3"></div>
             <div class="fr fr-main">
               <div class="fr-main-top">
-                <h1 class="fl">阿里纳斯推荐平台33333</h1>
-                <p style="margin: 10px 0 0 20px" class="fl">SA  GAME CASINO</p>
+                <h1 class="fl">阿里纳斯推荐平台</h1>
+                <p style="margin: 10px 0 0 20px" class="fl">AG  GAME CASINO</p>
               </div>
               <div class="fr-main-bottom">
-                <p class="">SA平台是欧美最流行的电子游艺平台之一，提供超过百款游戏，</p>
+                <p class="">AG平台是欧美最流行的电子游艺平台之一，提供超过百款游戏，</p>
                 <p> 以丰富玩法、视觉及声光效果提供顶级娱乐享受, </p>
                 <p>只为你提供极致的游戏体验...</p>
                 <div class="fr-main-bottom-img">
