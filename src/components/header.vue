@@ -53,12 +53,12 @@
     <div class="head-nav-bottom">
       <img src="./../assets/images/S63_logo.png" class="s63-logo">
       <ul class="nav-bottom-right fr">
-        <li><router-link to="/index">首页</router-link></li>
-        <li><router-link to="/live">真人娱乐</router-link></li>
-        <li><router-link to="/elec">老虎机</router-link></li>
-        <li><router-link to="/byg">捕鱼馆</router-link></li>
-        <li><router-link to="/general">综合游戏</router-link></li>
-        <li><router-link to="">优惠活动</router-link></li>
+        <li><router-link to="index">首页</router-link></li>
+        <li><router-link to="live">真人娱乐</router-link></li>
+        <li><router-link to="elec">老虎机</router-link></li>
+        <li><router-link to="byg">捕鱼馆</router-link></li>
+        <li><router-link to="general">综合游戏</router-link></li>
+        <li><router-link to="favourable">优惠活动</router-link></li>
         <li><router-link to="dlzx">代理加盟</router-link></li>
         <li><router-link to="">代言动态</router-link></li>
         <li><router-link to="">SA-API</router-link></li>

@@ -31,7 +31,7 @@
   width: 10px;
   height: 20px;
   display: inline-block;
-  background: url("./../assets/images/fairy.png") -20px -174px;
+  background: url("./../assets/images/fairy.png") -10px -174px;
 }
 .main-banner{
   margin-top: 10px;
@@ -85,21 +85,21 @@
   margin-bottom: -8px;
   width: 39px;
   height: 39px;
-  background: url("./../assets/images/fairy.png") -10px -116px;
+  background: url("./../assets/images/fairy.png") -2px -123px;
 }
 .shade .poker{
   display: inline-block;
   margin-bottom: -8px;
   width: 39px;
   height: 39px;
-  background: url("./../assets/images/fairy.png") -10px -63px;
+  background: url("./../assets/images/fairy.png") -3px -68px;
 }
 .shade .general{
   display: inline-block;
   margin-bottom: -8px;
   width: 39px;
   height: 39px;
-  background: url("./../assets/images/fairy.png") -10px -9px;
+  background: url("./../assets/images/fairy.png") -1px -14px;
 }
 .TS{
   width: 999px;
@@ -126,7 +126,7 @@
   float: left;
   width: 31px;
   height: 32px;
-  background: url("./../assets/images/fairy.png") -13px -199px;
+  background: url("./../assets/images/fairy.png") -4px -204px;
 }
 .gonggao p{
   margin-left: 10px;
@@ -147,10 +147,9 @@
   right: -2px;
   width: 72px;
   height: 72px;
-  /*border: 1px solid red;*/
   border-radius: 50%;
   box-sizing: border-box;
-  background: url("./../assets/images/fairy.png") -436px -8px;
+  background: url("./../assets/images/fairy.png") -427px -12px;
 }
 .circle2{
   position: absolute;
@@ -158,10 +157,9 @@
   right: -2px;
   width: 72px;
   height: 72px;
-  /*border: 1px solid red;*/
   border-radius: 50%;
   box-sizing: border-box;
-  background: url("./../assets/images/fairy.png") -520px -8px;
+  background: url("./../assets/images/fairy.png") -511px -12px;
 }
 .circle3{
   position: absolute;
@@ -169,10 +167,9 @@
   right: -2px;
   width: 72px;
   height: 72px;
-  /*border: 1px solid red;*/
   border-radius: 50%;
   box-sizing: border-box;
-  background: url("./../assets/images/fairy.png") -349px -12px;
+  background: url("./../assets/images/fairy.png") -341px -16px;
 }
 .circle4{
   position: absolute;
@@ -180,10 +177,9 @@
   right: -2px;
   width: 72px;
   height: 72px;
-  /*border: 1px solid red;*/
   border-radius: 50%;
   box-sizing: border-box;
-  background: url("./../assets/images/fairy.png") -265px -12px;
+  background: url("./../assets/images/fairy.png") -256px -16px;
 }
 .text-sa{
   position: absolute;
@@ -271,10 +267,10 @@
 .text-mg .mask,
 .text-ag .mask{
   position: absolute;
-  top: 0;
+  top: 1px;
   left: 0;
   width: calc(100% - 36px);
-  height: 100%;
+  height: 97%;
 }
 
 .text-sa:hover .mask{

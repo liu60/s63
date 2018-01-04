@@ -7,6 +7,7 @@ import elec from './../components/elec'
 import elecMore from './../components/elecMore'
 import general from './../components/general'
 import dlzx from './../components/dlzx'
+import favourable from './../components/favourable'
 
 
 //个人中心
@@ -64,6 +65,11 @@ export default new Router({
       path:'/general',
       name:'general',
       component:general
+    },
+    {
+      path:'/favourable',
+      name:'favourable',
+      component:favourable
     },
     {
       path: '/personal-center',

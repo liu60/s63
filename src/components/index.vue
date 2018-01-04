@@ -137,7 +137,7 @@
                   <img src="./../assets/images/index/bottom-game-banner2.jpg">
                   <img src="./../assets/images/index/bottom-game-banner3.jpg">
                 </div>
-                <div class="more-game">更多游戏</div>
+                <div class="more-game"><router-link to="elecMore">更多游戏</router-link></div>
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@
                   <img src="./../assets/images/index/bottom-game-banner2.jpg">
                   <img src="./../assets/images/index/bottom-game-banner3.jpg">
                 </div>
-                <div class="more-game">更多游戏</div>
+                <div class="more-game"><router-link to="elecMore">更多游戏</router-link></div>
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@
                   <img src="./../assets/images/index/bottom-game-banner2.jpg">
                   <img src="./../assets/images/index/bottom-game-banner3.jpg">
                 </div>
-                <div class="more-game">更多游戏</div>
+                <div class="more-game"><router-link to="elecMore">更多游戏</router-link></div>
               </div>
             </div>
           </div>

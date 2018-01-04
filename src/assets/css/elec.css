@@ -65,7 +65,7 @@
   left: 287px;
   width: 43px;
   height: 43px;
-  background: url("./../assets/images/fairy.png") -11px -243px;
+  background: url("./../assets/images/fairy.png") -2px -248px;
   cursor: pointer;
 }
 .gonggao{
@@ -87,7 +87,7 @@
   float: left;
   width: 31px;
   height: 32px;
-  background: url("./../assets/images/fairy.png") -13px -199px;
+  background: url("./../assets/images/fairy.png") -4px -204px;
 }
 .gonggao p{
   margin-left: 10px;

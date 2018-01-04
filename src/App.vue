@@ -24,6 +24,9 @@ export default {
     text-decoration: none;
     list-style: none;
   }
+  ul,li{
+    text-decoration: none;
+  }
   .pr{
     position: relative;
   }
