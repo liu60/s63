@@ -15,7 +15,9 @@
         </ul>
         <ul class="favourable-main-right">
           <li v-if="index === 0 || index === 1">
-            <img src="../assets/images/favourable/favourable-1.jpg" width="100%">
+            <img @click="show1 = !show1" src="../assets/images/favourable/favourable-1.jpg" width="100%">
+            <img :class="{hide: !show1}" src="../assets/images/favourable/favourable-1.jpg" width="100%">
+            <img :class="{hide: !show1}" src="../assets/images/favourable/favourable-1.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">迎新喜送第一桶金</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
@@ -59,7 +61,8 @@
     data(){
       return {
         name:'favourable',
-        index: 0
+        index: 0,
+        show1: false
       }
     }
   }
@@ -126,6 +129,9 @@
     background: #0088ff;
     color: #fff;
     cursor: pointer;
+  }
+  .hide{
+    display: none;
   }
   .favourable-main-right{
     display: inline-block;
