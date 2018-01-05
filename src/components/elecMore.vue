@@ -9,73 +9,85 @@
     </div>
     <div class="elec-more-main">
       <div class="elec-more-main-mid">
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-1 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-2 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-3 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-4 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-5 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-6 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-7 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-8 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-9 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-10 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-11 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
           </div>
         </div>
-        <div class="elec-more-game pr">
+        <div class="elec-more-game-12 pr">
+          <img width="100%" src="./../assets/images/elec-more.jpg">
           <div class="tryGame">
             <a>试玩游戏</a>
             <a>进入游戏</a>
@@ -139,11 +151,87 @@
     background: #636363;
     box-sizing: border-box;
   }
-  .elec-more-game{
+  .elec-more-game-1{
     display: inline-block;
     width: 287px;
     height: 296px;
-    background: url("./../assets/images/elec-more.jpg");
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-2{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-3{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-4{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-5{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-6{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-7{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-8{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-9{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-10{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-11{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
+    margin: 0 4px 5px;
+    overflow: hidden;
+  }
+  .elec-more-game-12{
+    display: inline-block;
+    width: 287px;
+    height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
@@ -157,7 +245,40 @@
     padding: 50px;
     box-sizing: border-box;
   }
-  .elec-more-game:hover .tryGame{
+  .elec-more-game-1:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-2:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-3:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-4:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-5:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-6:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-7:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-8:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-9:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-10:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-11:hover .tryGame{
+    top: 0;
+  }
+  .elec-more-game-12:hover .tryGame{
     top: 0;
   }
   .tryGame a{

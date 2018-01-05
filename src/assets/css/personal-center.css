@@ -1,10 +1,22 @@
+.personal-bg{
+  width: 100%;
+  box-sizing: border-box;
+  background: url("./../assets/images/reg-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .main{
   width: 1200px;
-  margin: 0 auto 20px;
+  min-height: 960px;
+  margin: 0 auto;
+  background: #fff;
+  box-sizing: border-box;
+  padding-bottom: 10px;
 }
 
 .header{
-  margin:38px 32px 3px;
+  margin:0 32px 3px;
   height: 72px;
   line-height: 72px;
   font-size: 30px;

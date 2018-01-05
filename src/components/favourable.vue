@@ -67,9 +67,10 @@
   .favourable-bg{
     background: url("../assets/images/favourable/favourable-bg.jpg") no-repeat center;
     width: 100%;
-    height: 1659px;
+    min-height: 1659px;
     padding-top: 20px;
     box-sizing: border-box;
+    background-size: cover;
   }
   .favourable-main{
     width: 1200px;

@@ -125,10 +125,11 @@
           </el-select>
         </el-form-item>
         <el-form-item label="转账金额">
-          <el-input v-model="form.a"></el-input>
+          <el-input style="width: 38%" v-model="form.a"></el-input>
         </el-form-item>
         <el-form-item label="验证码">
-          <el-input v-model="form.a"></el-input>
+          <el-input style="width: 18%" v-model="form.a"></el-input>
+          <div style="display: inline-block;margin-left: 10px">1234</div>
         </el-form-item>
         <el-button type="primary" @click="onSubmit">提交</el-button>
       </el-form>

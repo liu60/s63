@@ -8,6 +8,7 @@ import elecMore from './../components/elecMore'
 import general from './../components/general'
 import dlzx from './../components/dlzx'
 import favourable from './../components/favourable'
+import reg from './../components/register'
 
 
 //个人中心
@@ -35,6 +36,11 @@ export default new Router({
       path: '/index',
       name: 'index',
       component: index
+    },
+    {
+      path: '/reg',
+      name: 'reg',
+      component: reg
     },
     {
       path: '/live',

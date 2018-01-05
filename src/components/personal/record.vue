@@ -107,6 +107,7 @@
         </el-date-picker>
         -
         <el-date-picker
+          style="margin-right: 10px"
           v-model="end"
           type="date"
           placeholder="选择日期">
@@ -117,7 +118,7 @@
         </el-select>
       </div>
       <div>
-        交易种类:
+        状态:
         <el-select v-model="type">
           <el-option value="">取款</el-option>
         </el-select>

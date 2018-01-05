@@ -59,7 +59,19 @@
   background: -o-linear-gradient(top, #ff6b04, #ff322b);
   color: #fff;
 }
+.reg-btn{
+  width: 65px;
+  border-radius: 5px;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  background: #05a4d0;
+  color: #fff;
+}
 .login-btn:focus{
+  outline: none;
+}
+.reg-btn:focus{
   outline: none;
 }
 .head-login span{

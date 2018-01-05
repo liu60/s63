@@ -3,7 +3,7 @@
     <div class="head-nav-top">
       <div class="nav-top-bg">
         <div class="fl">本地时间:  {{dateFilter(time)}}</div>
-        <ul v-if="visible" class="head-login fr">
+        <ul v-if="visibled" class="head-login fr">
           <li>
             用户名:
             <input type="text" class="login-input">
@@ -19,10 +19,13 @@
           </li>
           <li>
             <button class="login-btn">登录</button>
+            <button class="reg-btn">
+              <router-link tag="small" to="/reg">立即开户</router-link>
+            </button>
             <a style="color: #fff" href="#">联系客服</a>
           </li>
         </ul>
-        <ul v-if="visibled" class="head-login fr">
+        <ul v-if="visible" class="head-login fr">
           <li>
             会员:
             <span>anne</span>
@@ -53,13 +56,13 @@
     <div class="head-nav-bottom">
       <img src="./../assets/images/S63_logo.png" class="s63-logo">
       <ul class="nav-bottom-right fr">
-        <li><router-link to="index">首页</router-link></li>
-        <li><router-link to="live">真人娱乐</router-link></li>
-        <li><router-link to="elec">老虎机</router-link></li>
-        <li><router-link to="byg">捕鱼馆</router-link></li>
-        <li><router-link to="general">综合游戏</router-link></li>
-        <li><router-link to="favourable">优惠活动</router-link></li>
-        <li><router-link to="dlzx">代理加盟</router-link></li>
+        <li><router-link to="/index">首页</router-link></li>
+        <li><router-link to="/live">真人娱乐</router-link></li>
+        <li><router-link to="/elec">老虎机</router-link></li>
+        <li><router-link to="/byg">捕鱼馆</router-link></li>
+        <li><router-link to="/general">综合游戏</router-link></li>
+        <li><router-link to="/favourable">优惠活动</router-link></li>
+        <li><router-link to="/dlzx">代理加盟</router-link></li>
         <li><router-link to="">代言动态</router-link></li>
         <li><router-link to="">SA-API</router-link></li>
       </ul>

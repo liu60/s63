@@ -30,7 +30,8 @@
 .live-bg{
   width: 100%;
   min-height: 1288px;
-  background: url("./../assets/images/live/live-bg.jpg") no-repeat center;
+  background: url("./../assets/images/live/live-bg.jpg") no-repeat;
+  padding-bottom: 20px;
 }
 .live-main{
   width: 1200px;
@@ -57,6 +58,52 @@
   background: url("./../assets/images/live/logo-fairy.png") -11px -87px;
   margin-left: 45px;
 }
+.live-logo-3{
+  display: inline-block;
+  width: 203px;
+  height: 72px;
+  background: url("./../assets/images/live/logo-fairy.png") -5px -187px;
+  margin-left: 45px;
+}
+.live-logo-4{
+  display: inline-block;
+  width: 203px;
+  height: 68px;
+  background: url("./../assets/images/live/logo-fairy.png") -5px -264px;
+  margin-left: 45px;
+}
+.live-logo-5{
+  display: inline-block;
+  width: 240px;
+  height: 68px;
+  background: url("./../assets/images/live/logo-fairy.png") -238px -4px;
+  margin-left: 27px;
+}
+.live-logo-6{
+  display: inline-block;
+  width: 240px;
+  height: 68px;
+  background: url("./../assets/images/live/logo-fairy.png") -315px -268px;
+  margin-left: 27px;
+}
+.live-logo-7{
+  display: inline-block;
+  width: 240px;
+  height: 68px;
+  background: url("./../assets/images/live/logo-fairy.png") -232px -86px;
+}
+.live-logo-8{
+  display: inline-block;
+  width: 240px;
+  height: 68px;
+  background: url("./../assets/images/live/logo-fairy.png") -212px -172px;
+}
+.live-logo-9{
+  display: inline-block;
+  width: 192px;
+  height: 68px;
+  background: url("./../assets/images/live/logo-fairy.png") -159px -275px;
+}
 .zhenren-bg-1{
    display: inline-block;
    width: 757px;
@@ -69,6 +116,55 @@
   width: 757px;
   height: 258px;
   background: url("./../assets/images/live/zhenren-2.jpg");
+  margin-left: 20px;
+}
+.zhenren-bg-3{
+  display: inline-block;
+  width: 757px;
+  height: 258px;
+  background: url("./../assets/images/live/zhenren-3.jpg");
+  margin-left: 20px;
+}
+.zhenren-bg-4{
+  display: inline-block;
+  width: 757px;
+  height: 258px;
+  background: url("./../assets/images/live/zhenren-4.jpg");
+  margin-left: 20px;
+}
+.zhenren-bg-5{
+  display: inline-block;
+  width: 757px;
+  height: 258px;
+  background: url("./../assets/images/live/zhenren-5.jpg");
+  margin-left: 20px;
+}
+.zhenren-bg-6{
+  display: inline-block;
+  width: 757px;
+  height: 258px;
+  background: url("./../assets/images/live/zhenren-6.jpg");
+  margin-left: 20px;
+}
+.zhenren-bg-7{
+  display: inline-block;
+  width: 757px;
+  height: 258px;
+  background: url("./../assets/images/live/zhenren-7.jpg");
+  margin-left: 20px;
+}
+.zhenren-bg-8{
+  display: inline-block;
+  width: 757px;
+  height: 258px;
+  background: url("./../assets/images/live/zhenren-8.jpg");
+  margin-left: 20px;
+}
+.zhenren-bg-9{
+  display: inline-block;
+  width: 757px;
+  height: 258px;
+  background: url("./../assets/images/live/zhenren-9.jpg");
   margin-left: 20px;
 }
 .zhenren-text{

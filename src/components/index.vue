@@ -46,6 +46,9 @@
               <span style="color: #fff;font-size: 30px">电子游艺</span>
             </span>
             <p style="color: #fff;font-size: 22px">ELECTRONIC RECREATION</p>
+            <div class="jg">
+                <router-link tag="span" to="/elec">进入游戏</router-link>
+              </div>
           </span>
         </div>
         <div class="main-live pr">
@@ -55,6 +58,9 @@
               <span style="color: #fff;font-size: 30px">真人娱乐</span>
             </span>
             <p style="color: #fff;font-size: 22px">LIVE ENTERTAINMENT</p>
+            <div class="jg">
+                <router-link tag="span" to="/live">进入游戏</router-link>
+              </div>
           </span>
         </div>
         <div class="main-sport pr">
@@ -64,6 +70,9 @@
               <span style="color: #fff;font-size: 30px">综合游戏</span>
             </span>
             <p style="color: #fff;font-size: 22px">SPORTS BETTING</p>
+            <div class="jg">
+                <router-link tag="span" to="/general">进入游戏</router-link>
+              </div>
           </span>
         </div>
       </div>
