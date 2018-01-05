@@ -131,7 +131,7 @@
     float: left;
     width: 31px;
     height: 32px;
-    background: url("./../assets/images/fairy.png") -13px -199px;
+    background: url("./../assets/images/fairy.png") -4px -204px;
   }
   .gonggao p{
     margin-left: 10px;
