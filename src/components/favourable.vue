@@ -7,42 +7,42 @@
       </div>
       <div class="favourable-main-bottom">
         <ul class="favourable-main-left">
-          <li>全部优惠</li>
-          <li>特别优惠</li>
-          <li>真人娱乐</li>
-          <li>老虎机</li>
-          <li>体育</li>
+          <li :class="{current: index === 0}" @click="index = 0">全部优惠</li>
+          <li :class="{current: index === 1}" @click="index = 1">特别优惠</li>
+          <li :class="{current: index === 2}" @click="index = 2">真人娱乐</li>
+          <li :class="{current: index === 3}" @click="index = 3">老虎机</li>
+          <li :class="{current: index === 4}" @click="index = 4">体育</li>
         </ul>
         <ul class="favourable-main-right">
-          <li>
+          <li v-if="index === 0 || index === 1">
             <img src="../assets/images/favourable/favourable-1.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">迎新喜送第一桶金</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
             </div>
           </li>
-          <li>
+          <li v-if="index === 0 || index === 2">
             <img src="../assets/images/favourable/favourable-2.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">老虎机洗码龙虎榜</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
             </div>
           </li>
-          <li>
+          <li v-if="index === 0 || index === 3">
             <img src="../assets/images/favourable/favourable-3.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">空战时代，百元护航</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
             </div>
           </li>
-          <li>
+          <li v-if="index === 0 || index === 4">
             <img src="../assets/images/favourable/favourable-4.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">豪礼双响炮 100%存送再享周回馈</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
             </div>
           </li>
-          <li>
+          <li v-if="index === 0 || index === 4">
             <img src="../assets/images/favourable/favourable-5.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">S63娱乐城老虎机救援金</span>
@@ -59,6 +59,7 @@
     data(){
       return {
         name:'favourable',
+        index: 0
       }
     }
   }
@@ -120,7 +121,8 @@
     background: #eeeeee;
     border-radius: 50px;
   }
-  .favourable-main-left li:hover{
+  .favourable-main-left li:hover,
+  .favourable-main-left .current{
     background: #0088ff;
     color: #fff;
     cursor: pointer;

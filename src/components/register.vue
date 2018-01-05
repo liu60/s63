@@ -43,9 +43,9 @@
               <el-input style="width: 18%"></el-input>
               <div style="display: inline-block;margin-left: 10px">1234</div>
             </el-form-item>
-            <el-button style="margin-left: 370px" type="primary">提交</el-button>
+            <el-button style="margin-left: 370px" type="primary" :disabled="!check">提交</el-button>
             <div style="margin-top: 10px;margin-left: 160px;color: #ff0000">
-              <input type="checkbox">
+              <input type="checkbox" v-model="check">
               本人已年满十八岁，在此网站所有活动并没有抵触所在国家所管辖的法律
             </div>
           </el-form>
@@ -59,6 +59,7 @@
     data (){
       return {
         name:'reg',
+        check: false
       }
     }
   }
