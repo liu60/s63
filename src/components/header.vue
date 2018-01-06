@@ -20,7 +20,7 @@
           <li>
             <button class="login-btn">登录</button>
             <button class="reg-btn">
-              <router-link style="font-size: 12px;" tag="small" to="/reg">立即开户</router-link>
+              <router-link style="font-size: 12px;color: #fff" to="/reg">立即开户</router-link>
             </button>
             <a style="color: #fff" href="#">联系客服</a>
           </li>
