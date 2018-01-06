@@ -2,7 +2,7 @@
   <div>
     <el-carousel :interval="5000" arrow="always">
       <el-carousel-item v-for="item in imgUrl" :key="item">
-        <img style="width: 100%;height: 500px" :src="item">
+        <img style="width: 100%;" :src="item">
       </el-carousel-item>
     </el-carousel>
     <div class="gonggao">
@@ -220,12 +220,6 @@
   }
 </script>
 
-<style>
+<style scoped>
   @import "./../assets/css/index.css";
-  .el-carousel__container{
-    height: 500px;
-  }
-  .el-carousel__indicators{
-    padding-bottom: 25px;
-  }
 </style>

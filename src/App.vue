@@ -30,4 +30,10 @@ export default {
   .pr{
     position: relative;
   }
+  .el-carousel__container{
+    height: 500px;
+  }
+  .el-carousel__indicators{
+    padding-bottom: 25px;
+  }
 </style>

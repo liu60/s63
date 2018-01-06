@@ -64,7 +64,7 @@
     }
   }
 </script>
-<style>
+<style scoped>
   .reg-bg{
     width: 100%;
     height: 900px;
