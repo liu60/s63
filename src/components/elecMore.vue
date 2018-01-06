@@ -138,7 +138,7 @@
   }
   .elec-more-main{
     width: 100%;
-    height: 1000px;
+    min-height: 1000px;
     background: url("./../assets/images/elec-more-bg.jpg") no-repeat;
     padding-top: 40px;
   }
@@ -153,84 +153,84 @@
   }
   .elec-more-game-1{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-2{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-3{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-4{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-5{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-6{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-7{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-8{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-9{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-10{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-11{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;
   }
   .elec-more-game-12{
     display: inline-block;
-    width: 287px;
+    width: 285px;
     height: 296px;
     margin: 0 4px 5px;
     overflow: hidden;

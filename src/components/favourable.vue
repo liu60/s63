@@ -24,28 +24,36 @@
             </div>
           </li>
           <li v-if="index === 0 || index === 2">
-            <img src="../assets/images/favourable/favourable-2.jpg" width="100%">
+            <img @click="show2 = !show2" src="../assets/images/favourable/favourable-2.jpg" width="100%">
+            <img :class="{hide: !show2}" src="../assets/images/favourable/favourable-2.jpg" width="100%">
+            <img :class="{hide: !show2}" src="../assets/images/favourable/favourable-2.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">老虎机洗码龙虎榜</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
             </div>
           </li>
           <li v-if="index === 0 || index === 3">
-            <img src="../assets/images/favourable/favourable-3.jpg" width="100%">
+            <img @click="show3 = !show3" src="../assets/images/favourable/favourable-3.jpg" width="100%">
+            <img :class="{hide: !show3}" src="../assets/images/favourable/favourable-3.jpg" width="100%">
+            <img :class="{hide: !show3}" src="../assets/images/favourable/favourable-3.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">空战时代，百元护航</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
             </div>
           </li>
           <li v-if="index === 0 || index === 4">
-            <img src="../assets/images/favourable/favourable-4.jpg" width="100%">
+            <img @click="show4 = !show4" src="../assets/images/favourable/favourable-4.jpg" width="100%">
+            <img :class="{hide: !show4}" src="../assets/images/favourable/favourable-4.jpg" width="100%">
+            <img :class="{hide: !show4}" src="../assets/images/favourable/favourable-4.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">豪礼双响炮 100%存送再享周回馈</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
             </div>
           </li>
           <li v-if="index === 0 || index === 4">
-            <img src="../assets/images/favourable/favourable-5.jpg" width="100%">
+            <img @click="show5 = !show5" src="../assets/images/favourable/favourable-5.jpg" width="100%">
+            <img :class="{hide: !show5}" src="../assets/images/favourable/favourable-5.jpg" width="100%">
+            <img :class="{hide: !show5}" src="../assets/images/favourable/favourable-5.jpg" width="100%">
             <div class="favourable-text">
               <span style="color: #0088ff;font-size: 20px">S63娱乐城老虎机救援金</span>
               <span class="fr" style="font-size: 20px">更多信息</span>
@@ -62,7 +70,11 @@
       return {
         name:'favourable',
         index: 0,
-        show1: false
+        show1: false,
+        show2: false,
+        show3: false,
+        show4: false,
+        show5: false,
       }
     }
   }
