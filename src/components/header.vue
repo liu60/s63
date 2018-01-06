@@ -3,7 +3,7 @@
     <div class="head-nav-top">
       <div class="nav-top-bg">
         <div class="fl">本地时间:  {{dateFilter(time)}}</div>
-        <ul v-if="visibled" class="head-login fr">
+        <ul class="head-login fr">
           <li>
             用户名:
             <input type="text" class="login-input">
@@ -25,7 +25,7 @@
             <a style="color: #fff" href="#">联系客服</a>
           </li>
         </ul>
-        <ul v-if="visible" class="head-login fr">
+        <ul style="display: none" class="head-login fr">
           <li>
             会员:
             <span>anne</span>
@@ -103,7 +103,7 @@
           var charNum = Math.floor(Math.random()*52);
           this.code += codeChars[charNum];
         }
-      }
+      },
     },
   }
 </script>

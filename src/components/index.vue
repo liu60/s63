@@ -1,10 +1,12 @@
 <template>
   <div>
-    <el-carousel :interval="5000" arrow="always">
-      <el-carousel-item v-for="item in imgUrl" :key="item">
-        <img style="width: 100%;" :src="item">
-      </el-carousel-item>
-    </el-carousel>
+    <div class="index-bg">
+      <el-carousel :interval="5000" arrow="always">
+        <el-carousel-item v-for="item in imgUrl" :key="item">
+          <img style="width: 100%;" :src="item">
+        </el-carousel-item>
+      </el-carousel>
+    </div>
     <div class="gonggao">
       <div class="gonggao-main">
         <i class="gonggao-img"></i>

@@ -52,11 +52,7 @@
   border: none;
   padding: 4px;
   cursor: pointer;
-  background: linear-gradient(top, #ff6b04, #ff322b);
-  background: -ms-linear-gradient(top, #ff6b04, #ff322b);
-  background: -moz-linear-gradient(top, #ff6b04, #ff322b);
-  background: -webkit-linear-gradient(top, #ff6b04, #ff322b);
-  background: -o-linear-gradient(top, #ff6b04, #ff322b);
+  background: #ff322b;
   color: #fff;
 }
 .reg-btn{
@@ -83,11 +79,7 @@
   border: none;
   padding: 4px;
   cursor: pointer;
-  background: linear-gradient(top, #ff6b04, #ff322b);
-  background: -ms-linear-gradient(top, #ff6b04, #ff322b);
-  background: -moz-linear-gradient(top, #ff6b04, #ff322b);
-  background: -webkit-linear-gradient(top, #ff6b04, #ff322b);
-  background: -o-linear-gradient(top, #ff6b04, #ff322b);
+  background: #ff322b;
   color: #fff;
   margin-left: 10px;
 }

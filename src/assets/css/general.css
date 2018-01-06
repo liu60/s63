@@ -78,4 +78,8 @@
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
+  transition: all .3s linear;
+}
+.join-game:hover{
+  background: #00A8DD;
 }
