@@ -60,4 +60,10 @@
 </script>
 <style scoped>
   @import "../../assets/css/bank.css";
+  .el-input{
+    width: 60%;
+  }
+  .el-textarea{
+    width: 60%;
+  }
 </style>

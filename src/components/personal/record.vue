@@ -101,13 +101,14 @@
       <div>
         日期由:
         <el-date-picker
+          style="width: 200px"
           v-model="start"
           type="date"
           placeholder="选择日期">
         </el-date-picker>
         -
         <el-date-picker
-          style="margin-right: 10px"
+          style="width: 200px"
           v-model="end"
           type="date"
           placeholder="选择日期">

@@ -84,4 +84,10 @@
 </script>
 <style scoped>
   @import "../../assets/css/load-money.css";
+  .el-input{
+    width: 60%;
+  }
+  .el-textarea{
+    width: 60%;
+  }
 </style>
