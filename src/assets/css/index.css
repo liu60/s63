@@ -12,16 +12,15 @@
 }
 .moneys div{
   display: inline-block;
-  width: 55px;
+  width: 63px;
   height: 95px;
   border: 3px solid #978044;
   border-radius: 5px;
   box-sizing: border-box;
-  margin: 52px 0 10px 0;
+  margin: 62px 0 10px 0;
   text-align: center;
-  padding-top: 16px;
   color: #f1cb3e;
-  font-size: 45px;
+  font-size: 70px;
   box-shadow: 0 0 1px #f1cb3e;
   background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 255, 1)), to(rgba(255, 216, 0, 1)));
   -webkit-background-clip: text;
@@ -370,14 +369,21 @@
   width: 180px;
   height: 48px;
   line-height: 48px;
-  font-size: 20px;
+  font-size: 25px;
   box-sizing: border-box;
   text-align: center;
   background: #3aa1e0;
+  background: -webkit-linear-gradient(top,#3ea5e4,#248ac8);
   border-radius: 20px;
   color: #fff;
   cursor: pointer;
 }
+.more-game a{
+  color: #fff;
+}
+/*.more-game:hover a{*/
+  /*color: red;*/
+/*}*/
 
 .hide{
   display: none;

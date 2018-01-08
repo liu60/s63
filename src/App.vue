@@ -3,16 +3,18 @@
     <headers></headers>
     <router-view/>
     <footers></footers>
+    <suspend v-if="$route.path !=='/reg'"></suspend>
   </div>
 </template>
 
 <script>
   import headers from './components/header';
   import footers from './components/footer';
+  import suspend from './components/suspend';
 export default {
   name: 'app',
   components:{
-    headers,footers
+    headers,footers,suspend
   }
 }
 </script>
