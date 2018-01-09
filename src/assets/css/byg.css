@@ -47,6 +47,7 @@
   border-radius: 50px;
   font-weight: bold;
   background: #fbb900;
+  background:-webkit-linear-gradient(top,#fef5c0,#fbba00);
   cursor: pointer;
   box-shadow: 0 0 0 6px #76ccef;
   font-size: 20px;
